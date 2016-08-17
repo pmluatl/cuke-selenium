@@ -23,7 +23,7 @@ Feature: Smoke Test Shodan Scenario
 @tag1
 Scenario: Test Login with valid credential
   Given Open Firefox and start application
-  When user provide valid username and password
+  When user provide valid  "p_mlu" and valid "Beehive08"
   Then user should be able to login
 
 
